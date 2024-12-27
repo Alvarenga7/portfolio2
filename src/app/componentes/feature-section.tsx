@@ -2,7 +2,7 @@
 
 function FeatureSection() {
     return (
-        <section id="features" className='xs:ml-[15%] sm:ml-[3%] ml-[3%] bg-slate-50 dark:bg-transparent container space-y-6 py-8 md:py-12 lg:py-24'
+        <section id="features" className=' ml-[3%] bg-slate-50 dark:bg-transparent container space-y-6 py-8 md:py-12 lg:py-24'
         >
             <div className='mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center sm:ml-[20%] md:ml-[19.5%]'>
                 <h2 className='font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl'>
@@ -85,7 +85,7 @@ function FeatureSection() {
 
                 <div className='relative overflow-hidden rounded-lg border bg-background p-2'>
                     <div className='flex h-[180px] flex-col justify-between rounded-md p-6'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className='fill-current' viewBox="0 0 50 50" width="90px" height="50px" fillRule="evenodd"><path fillRule="evenodd" d="M 42 6 L 39 40 L 25 44 L 11 40 L 8 6 Z M 16.800781 28 L 20.800781 28 L 20.898438 30.5 L 25 31.898438 L 29.101563 30.5 L 29.398438 26 L 20.601563 26 L 20.398438 22 L 29.601563 22 L 29.898438 18 L 16.101563 18 L 15.800781 14 L 34.101563 14 L 33.601563 22 L 32.898438 33.5 L 25 36.101563 L 17.101563 33.5 Z" /></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="50px" height="50px">    <path d="M25.428,3.333C25.238,3.121,24.967,3,24.683,3H5.317C5.033,3,4.762,3.121,4.572,3.333c-0.19,0.212-0.28,0.495-0.249,0.777 l2.202,19.823c0.044,0.403,0.329,0.74,0.719,0.851l7.48,2.137c0.09,0.026,0.183,0.039,0.275,0.039s0.185-0.013,0.275-0.039 l7.48-2.137c0.39-0.111,0.674-0.448,0.719-0.851L25.676,4.11C25.708,3.828,25.618,3.545,25.428,3.333z M20.516,13.074l-0.446,7.285 l-5.038,1.647l-5.038-1.647l-0.191-3.484h2.55l0.064,1.584l2.615,0.887l2.615-0.887l0.191-2.85h-5.612l-0.127-2.534h5.867 l0.191-2.534H9.356L9.165,8.006h11.67L20.516,13.074z"/></svg>
                         <div className='space-y-2'>
                             <h3 className='font-bold'>CSS</h3>
                             <p className='text-sm text-muted-foreground'>
