@@ -37,7 +37,7 @@ function AboutSection() {
                 </div>
                 <div className="lg:order-first lg:row-span-2 text-center md:text-start xs:ml-[-25%] md:ml-[-1%]">
                     <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl sm:ml-[-5%] md:ml-[-2%]">@alvarenga</h1>
-                    <p className="mt-4 text-base text-muted-foreground">Olá, Sou Henrique Alvarenga Hastenreiter, tenho  17 anos e sou apaixonado por tecnologia.
+                    <p className="mt-6 text-base text-muted-foreground xs:text-[16px]">Olá, Sou Henrique Alvarenga Hastenreiter, tenho  17 anos e sou apaixonado por tecnologia.
                         Estudo desenvolvimento Front-End e já tenho alguns projetos pessoais em andamento, além de
                         colaborar com soluções inovadoras para a comunidade. Meu foco é criar interfaces elegantes,
                         intuitivas e funcionais, sempre buscando proporcionar a melhor experiência ao usuário.
