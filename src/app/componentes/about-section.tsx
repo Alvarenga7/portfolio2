@@ -1,7 +1,7 @@
 import Eu from "@/app/images/eu.jpeg";
 import Image from "next/image";
 import Link from 'next/link';
-import { GitHubIcon, InstagramIcon, LinkedInIcon, YoutTubeIcon } from "@/components/social-icons";
+import { GitHubIcon, InstagramIcon, LinkedInIcon} from "@/components/social-icons";
 
 function SocialLinks({ icon: Icon, ...props }: any) {
     return (

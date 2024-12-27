@@ -1,7 +1,6 @@
-import { cn } from "@/lib/utils";
+
 import { ModeToggle } from "./mode-toggle";
-import { buttonVariants } from "@/components/ui/button";
-import AboutSection from "./about-section";
+
 
 function IntroSection(){
     return(
@@ -20,10 +19,10 @@ function IntroSection(){
               
               <ModeToggle />
             </span>
-            <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl">
+            <h1 className="font-heading text-6xl md:text-6xl lg:text-7xl">
               FRONT-END
               <br />
-              <span className="text-primary">DEVELOPER</span>
+              <span className="text-primary text-8xl">DEVELOPER</span>
             </h1>
             <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
               Desenvolvedor Front-End com

@@ -1,10 +1,3 @@
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from '@/components/ui/accordion';
-
 
 
 function FeatureSection() {
@@ -46,7 +39,7 @@ function FeatureSection() {
                         <div className='space-y-2'>
                             <h3 className='font-bold'>React</h3>
                             <p className='text-sm text-muted-foreground'>
-                                Server e Client Components. Uso de Hooks.
+                            Server and Client Components. Use of Hooks.
                             </p>
                         </div>
                     </div>
