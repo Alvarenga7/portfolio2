@@ -11,6 +11,9 @@ export default {
   ],
   theme: {
   	extend: {
+		screens: {
+			'xs': '320px', // Resolução menor que 640px
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
