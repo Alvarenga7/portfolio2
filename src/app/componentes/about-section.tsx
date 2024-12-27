@@ -10,9 +10,9 @@ interface SocialLinksProps extends LinkProps {
   icon: React.ElementType; // Tipagem do ícone como um componente React
 }
 
-function SocialLinks({ icon: Icon, ...props }: SocialLinksProps) {
+function SocialLinks({ icon: Icon, ...string }: SocialLinksProps) {
   return (
-    <Link className="group -m-1 p-1" {...props}>
+    <Link className="group -m-1 p-1" {...string}>
       <Icon className="h-6 w-6 fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-200" />
     </Link>
   );
