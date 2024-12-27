@@ -31,13 +31,13 @@ function AboutSection() {
                             height={350}
                             quality='95'
                             priority={true}
-                            className="aspect-square rotate-3 rounded-lg bg-zinc-100 dark:bg-zinc-800 object-cover"
+                            className="aspect-square rotate-3 rounded-lg bg-zinc-100 dark:bg-zinc-800 object-cover sm:ml-[-30%]"
                         />
                     </div>
                 </div>
-                <div className="lg:order-first lg:row-span-2 text-center md:text-start">
+                <div className="lg:order-first lg:row-span-2 text-center md:text-start sm:ml-[-20%]">
                     <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl">@alvarenga</h1>
-                    <p className="mt-6 text-base text-muted-foreground">Olá, Sou Henrique Alvarenga Hastenreiter, tenho  17 anos e sou apaixonado por tecnologia.
+                    <p className="mt-6 text-base text-muted-foreground sm:text-[16px]">Olá, Sou Henrique Alvarenga Hastenreiter, tenho  17 anos e sou apaixonado por tecnologia.
                         Estudo desenvolvimento Front-End e já tenho alguns projetos pessoais em andamento, além de
                         colaborar com soluções inovadoras para a comunidade. Meu foco é criar interfaces elegantes,
                         intuitivas e funcionais, sempre buscando proporcionar a melhor experiência ao usuário.
