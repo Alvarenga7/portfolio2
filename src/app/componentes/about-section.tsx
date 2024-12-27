@@ -3,16 +3,16 @@
 import Eu from "@/app/images/eu.jpeg";
 import Image from "next/image";
 import { GitHubIcon, InstagramIcon, LinkedInIcon} from "@/components/social-icons";
-import Link, { LinkProps } from 'next/link'; // Importando Link e LinkProps do Next.js
+import Link, { LinkProps } from 'next/link'; 
 import React from 'react';
 
 interface SocialLinksProps extends LinkProps {
-  icon: React.ElementType; // Tipagem do ícone como um componente React
+  icon: React.ElementType; 
 }
 
-function SocialLinks({ icon: Icon, ...props }: SocialLinksProps) {
+function SocialLinks({ icon: Icon, ...string }: SocialLinksProps) {
   return (
-    <Link className="group -m-1 p-1" {...props}>
+    <Link className="group -m-1 p-1" {...string}>
       <Icon className="h-6 w-6 fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-200" />
     </Link>
   );
@@ -27,17 +27,17 @@ function AboutSection() {
                         <Image
                             src={Eu}
                             alt='Henrique Alvarenga'
-                            width={350}
-                            height={350}
+                            width={370}
+                            height={370}
                             quality='95'
                             priority={true}
-                            className="aspect-square rotate-3 rounded-lg bg-zinc-100 dark:bg-zinc-800 object-cover sm:ml-[-25%] md:ml-[25%]"
+                            className="aspect-square rotate-3 rounded-lg bg-zinc-100 dark:bg-zinc-800 object-cover"
                         />
                     </div>
                 </div>
-                <div className="lg:order-first lg:row-span-2 text-center md:text-start sm:ml-[-15%] md:ml-[15%] ">
+                <div className="lg:order-first lg:row-span-2 text-center md:text-start">
                     <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl sm:ml-[-5%] md:ml-[-2%]">@alvarenga</h1>
-                    <p className="mt-6 text-base text-muted-foreground ">Olá, Sou Henrique Alvarenga Hastenreiter, tenho  17 anos e sou apaixonado por tecnologia.
+                    <p className="mt-6 text-base text-muted-foreground">Olá, Sou Henrique Alvarenga Hastenreiter, tenho  17 anos e sou apaixonado por tecnologia.
                         Estudo desenvolvimento Front-End e já tenho alguns projetos pessoais em andamento, além de
                         colaborar com soluções inovadoras para a comunidade. Meu foco é criar interfaces elegantes,
                         intuitivas e funcionais, sempre buscando proporcionar a melhor experiência ao usuário.

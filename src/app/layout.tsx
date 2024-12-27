@@ -19,7 +19,7 @@ const fontHeading = localFont({
 
 export const metadata: Metadata = {
   title: "Alvarenga.dev",
-  description: "Portfolio criado por Henrique Alvarenga",
+  description: "Developer Front End",
   
 };
 
