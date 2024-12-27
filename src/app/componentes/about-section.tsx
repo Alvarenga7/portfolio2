@@ -35,14 +35,14 @@ function AboutSection() {
                         />
                     </div>
                 </div>
-                <div className="lg:order-first lg:row-span-2 text-center md:text-start sm:ml-[-20%]">
-                    <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl">@alvarenga</h1>
-                    <p className="mt-6 text-base text-muted-foreground sm:text-[16px]">Olá, Sou Henrique Alvarenga Hastenreiter, tenho  17 anos e sou apaixonado por tecnologia.
+                <div className="lg:order-first lg:row-span-2 text-center md:text-start">
+                    <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl sm:mr-[25%]">@alvarenga</h1>
+                    <p className="mt-6 text-base text-muted-foreground sm:mr-[25%] ">Olá, Sou Henrique Alvarenga Hastenreiter, tenho  17 anos e sou apaixonado por tecnologia.
                         Estudo desenvolvimento Front-End e já tenho alguns projetos pessoais em andamento, além de
                         colaborar com soluções inovadoras para a comunidade. Meu foco é criar interfaces elegantes,
                         intuitivas e funcionais, sempre buscando proporcionar a melhor experiência ao usuário.
                     </p>
-                    <div className="mt-6 flex justify-center md:justify-start gap-6">
+                    <div className="mt-6 flex justify-center md:justify-start gap-6 sm:mr-[25%]">
                         <SocialLinks icon={InstagramIcon} href="https://www.instagram.com/henrift_/" />
                         <SocialLinks icon={GitHubIcon} href="https://github.com/Alvarenga7" />
                         <SocialLinks icon={LinkedInIcon} href="https://www.linkedin.com/in/henrique-hastenreiter-8933992a3/" />
