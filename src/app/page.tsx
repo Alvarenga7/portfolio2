@@ -12,16 +12,6 @@ export default function Home() {
 
       <FeatureSection />
 
-      
-
-     
-
-     
-
-     
-
-    
-
     </main>
   );
 }

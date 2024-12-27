@@ -1,16 +1,22 @@
+'use client';
+
 import Eu from "@/app/images/eu.jpeg";
 import Image from "next/image";
-import Link from 'next/link';
 import { GitHubIcon, InstagramIcon, LinkedInIcon} from "@/components/social-icons";
+import Link, { LinkProps } from 'next/link'; // Importando Link e LinkProps do Next.js
+import React from 'react';
 
-function SocialLinks({ icon: Icon, ...props }: any) {
-    return (
-        <Link className='group -m-1 p-1' {...props}>
-            <Icon className='h-6 w-6 fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-200' />
-        </Link>
-    );
+interface SocialLinksProps extends LinkProps {
+  icon: React.ElementType; // Tipagem do ícone como um componente React
 }
 
+function SocialLinks({ icon: Icon, ...props }: SocialLinksProps) {
+  return (
+    <Link className="group -m-1 p-1" {...props}>
+      <Icon className="h-6 w-6 fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-200" />
+    </Link>
+  );
+}
 function AboutSection() {
     return (
         <section id="about" className="ml-[15%] container flex flex-col md:max-w-[64rem] md:py-12 lg:py-24"
