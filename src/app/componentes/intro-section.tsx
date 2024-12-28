@@ -14,7 +14,7 @@ function IntroSection(){
             </radialGradient>
           </defs>
         </svg>
-          <div className="container flex max-w-[100rem] flex-col items-center text-center gap-4 sm:ml-[40%]  md:ml-[-1%]">
+          <div className="container flex max-w-[100rem] flex-col items-center text-center gap-4 sm:ml-[60%]  md:ml-[-1%]">
             <span className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium flex items-center">
               
               <ModeToggle />
